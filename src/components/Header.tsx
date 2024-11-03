@@ -9,21 +9,24 @@ const Header = () => {
         <nav className="flex justify-between items-center px-4 py-3 z-10 relative">
           <img src="img/logo.png" width={"100px"} alt="" />
           <ul className="md:flex flex-grow justify-end hidden">
-            <li className="m-3 cursor-pointer text-white font-bold hover:text-teal-300 hover:font-bold">
+            <a
+              href="#services"
+              className="m-3 cursor-pointer text-white font-bold hover:text-teal-300 hover:font-bold"
+            >
               Servicios
-            </li>
-            <li className="m-3 cursor-pointer text-white font-bold hover:text-teal-300 hover:font-bold">
+            </a>
+            <a
+              href="#products"
+              className="m-3 cursor-pointer text-white font-bold hover:text-teal-300 hover:font-bold"
+            >
               Productos
-            </li>
-            <li className="m-3 cursor-pointer text-white font-bold hover:text-teal-300 hover:font-bold">
-              Servios
-            </li>
-            <li className="m-3 cursor-pointer text-white font-bold hover:text-teal-300 hover:font-bold">
-              Sobre nosotros
-            </li>
-            <li className="m-3 cursor-pointer text-white font-bold hover:text-teal-300 hover:font-bold">
+            </a>
+            <a className="m-3 cursor-pointer text-white font-bold hover:text-teal-300 hover:font-bold">
               Proyectos
-            </li>
+            </a>
+            <a className="m-3 cursor-pointer text-white font-bold hover:text-teal-300 hover:font-bold">
+              Sobre nosotros
+            </a>
           </ul>
           <img
             className="md:hidden"

@@ -2,10 +2,9 @@ import { dataBase } from "app/db/data";
 import CategoriesCard from "./CategoriesCard";
 const Products = () => {
   return (
-    <div className="">
+    <div id="products" className="">
       <div className="max-w-7xl mx-auto text-white px-4">
-        <h1 className="text-blue-900 font-bold text-4xl mt-10 text-center">
-          {" "}
+        <h1 className="text-blue-900 font-bold text-5xl mt-10 text-center">
           Nuestros Productos
         </h1>
         <p className="mt-4 mb-10 text-gray-500 text-center">

@@ -44,3 +44,47 @@ export const dataBase: Datacategory = {
     },
   ],
 };
+
+export type Services = {
+  id: number;
+  name: string;
+  description: string;
+  image: string;
+};
+
+export type Dataservices = {
+  services: Services[];
+};
+
+export const dataServices: Dataservices = {
+  services: [
+    {
+      id: 1,
+      name: "Venta y distribución",
+      description:
+        "Ofrecemos soluciones completas en venta y distribución de equipos de climatización de las principales marcas del mercado, asegurando calidad y rendimiento.",
+      image: "img/distri.jpg",
+    },
+    {
+      id: 2,
+      name: "Diseño en obras industriales.",
+      description:
+        "Diseñamos sistemas de climatización eficientes y personalizados para proyectos industriales y comerciales, adaptados a las necesidades de cada espacio.",
+      image: "img/indus.jpg",
+    },
+    {
+      id: 3,
+      name: "Instalación",
+      description:
+        "Servicios profesionales de instalación de sistemas de climatización, realizados por técnicos certificados y cumpliendo con las normativas vigentes.",
+      image: "img/insta.jpg",
+    },
+    {
+      id: 4,
+      name: "Mantenimiento",
+      description:
+        "Mantenimiento preventivo y correctivo de sistemas de climatización para garantizar su eficiencia y prolongar su vida útil.",
+      image: "img/mante.jpg",
+    },
+  ],
+};

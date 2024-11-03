@@ -67,7 +67,7 @@ const CategoriesCard = () => {
         </svg>
       </button>
 
-      <div className="relative min-h-[50svh] w-full">
+      <div className="relative h-[550px] w-full">
         {slides.map((slide, index) => (
           <div
             key={index}

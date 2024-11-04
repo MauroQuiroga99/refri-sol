@@ -47,7 +47,7 @@ const Header = () => {
             </p>
             <div className="flex mt-10">
               <a
-                href="#"
+                href="#contact"
                 className="py-2 px-3 font-bold border-2 border-white mr-1 hover:bg-teal-300 bg-teal-300 bg-opacity-40 rounded-2xl"
               >
                 Contactanos

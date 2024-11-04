@@ -7,7 +7,7 @@ const Products = () => {
         <h1 className="text-blue-900 font-bold text-5xl mt-10 text-center">
           Nuestros Productos
         </h1>
-        <p className="mt-4 mb-10 text-gray-500 text-center">
+        <p className="mt-4 mb-10 text-gray-500 text-lg text-center">
           Ofrecemos una amplia gama de productos para aires acondicionados,
           incluyendo unidades de aire acondicionado, filtros, repuestos y
           herramientas de instalación. Nuestra selección de productos está

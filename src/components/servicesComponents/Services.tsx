@@ -9,7 +9,7 @@ const Services = () => {
         <h1 className="text-blue-900 font-bold text-5xl pt-10 text-center">
           Nuestros servicios
         </h1>
-        <p className="mt-4 mb-10 text-gray-500 text-center">
+        <p className="mt-4 mb-10 text-gray-500 text-lg text-center">
           Contamos con personal capacitado y certificado que trabaja con todas
           las medidas de seguridad para brindarte la mejor experiencia en cada
           uno de nuestros servicios. Desde la venta y distribución de equipos de

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex flex-wrap gap-20 mx-auto justify-center p-4 bg-gray-300 bg-opacity-50 h-full">
+    <div className="flex flex-wrap gap-20 mx-auto justify-center p-4 bg-white bg-opacity-50 h-full">
       <div className="flex flex-col justify-around items-start wauto text-gray-600 text-left">
         <h1 className="font-bold text-center">INFORMACIÓN DE CONTACTO</h1>
         <div className="mt-4 flex flex-col items-start gap-2">

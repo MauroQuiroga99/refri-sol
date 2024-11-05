@@ -1,5 +1,6 @@
 import { dataBase } from "app/db/data";
 import CategoriesCard from "./CategoriesCard";
+
 const Products = () => {
   return (
     <div id="products" className="">
